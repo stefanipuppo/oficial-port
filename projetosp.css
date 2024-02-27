@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: #1c5dd6;
+    margin: 20px;
+    float: left;
+    border-radius: 11px;
+}
+.box:hover {
+    background-color: #04235c;
+}
+main.boxp {
+    background-color: #1c5dd6;
+    display: inline-block;
+    width: 90vw;
+    height: 100px;
+    margin: 20px;
+    border-radius: 9px;
+}
+
+main.boxm {
+    background-color: #1c5dd6;
+    display: inline-block;
+    width: 90vw;
+    height: 203px;
+    margin: 20px;
+    border-radius: 9px ;
+}
+
+footer.rodape {
+    background-color: black;
+    color: #1c5dd6;
+}
