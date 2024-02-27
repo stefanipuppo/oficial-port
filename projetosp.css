@@ -11,10 +11,20 @@ body {
     margin: 20px;
     float: left;
     border-radius: 11px;
+    
 }
+
+.box#img01 {
+    background-image: url(imagens/stefanii.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .box:hover {
     background-color: #04235c;
+    transform: scale(1.1);
 }
+
 main.boxp {
     background-color: #1c5dd6;
     display: inline-block;
