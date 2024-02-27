@@ -39,13 +39,13 @@ section.section_container {
 }
 
 .box#img01 {
-    background-image: url(imagens/stefanii.jpg);
+    background-image: url('imagens/loading.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .box#img02 {
-    background-image: url(imagens/loading.jpg);
+    background-image: url('imagens/loading.jpg');
     background-size: cover;
     background-position: center;
 }
