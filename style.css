@@ -95,8 +95,38 @@ img {
     background-color: var(--cor-azul);
     padding: 10px;
     text-align: center;
-    font-family: var(--fonte-branca);
+    font-family: var(--fonte-segundaria);
     font-size: 1.0rem;
     font-weight: 600;
 }
+ 
 
+@media screen and (min-width: 769px) {
+    
+    .apresentacao {
+        padding: 2%;
+        display: flex;
+    
+    }
+
+    .apresentacao__imagem {
+        width: 30%;
+        padding: 20px;
+    }
+    
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+        font-family:var(--fonte-primaria);
+        margin: 15px;
+    
+    }
+
+    .apresentacao__links__navegacao {
+
+        text-transform: capitalize;
+        text-indent: 2%;
+    
+    
+    }    
+}
