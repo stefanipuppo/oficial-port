@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background: linear-gradient(to bottom, #000, #001F3F, #4B0082);
     margin: 0;
     padding: 17px;
 }
 
 main.boxp {
-    background-color: black;
+    background-color: transparent;
     display: inline-block;
     width: 89vw;
     height: 100px;
@@ -63,8 +63,7 @@ section.section_container {
 
 
 main.boxm {
-    background-color: black;
-    ;
+    background-color: transparent;
     display: inline-block;
     width: 90vw;
     height: 20vh;
@@ -73,12 +72,13 @@ main.boxm {
 }
 
 footer.rodape {
-    background-color: black;
+    background-color: transparent;
     color: #1c5dd6;
     font-size: 10px;
 }
 
 .voltar {
+    color: aliceblue;
     text-align: center;
     font-size: 1.2rem;
     padding: 20px;
