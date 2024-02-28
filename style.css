@@ -22,6 +22,14 @@ body {
     color: var(--cor-branca);
 }
 
+.fundo {
+    box-sizing: border-box;
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--cor-branca);
+}
+
 .titulo-destaque {
     color:var(--cor-azul);
 }
@@ -67,6 +75,7 @@ img {
 }
 
 .apresentacao__links__navegacao {
+    background-color: transparent;
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -87,11 +96,6 @@ img {
     padding: 40px;
 }
 
-
-.apresentacao__links__link:hover {
-    background-color: #272727;
-}
-
 .rodape {
     color: var(--cor-preto);
     background-color: var(--cor-azul);
@@ -100,7 +104,10 @@ img {
     font-family: var(--fonte-segundaria);
     font-size: 1.0rem;
     font-weight: 600;
+}
 
+.rodape_fundo {
+    text-align: center;
 }
  
 @media screen and (max-width: 600px) {
