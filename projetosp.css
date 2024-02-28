@@ -36,6 +36,7 @@ section.section_container {
     background-color: #1c5dd6;
     margin: 20px;
     border-radius: 11px;
+    box-shadow:2px 2px 5px 2px #05307e;
 
 }
 
@@ -43,6 +44,10 @@ section.section_container {
     background-image: url(imagens/stefanii.jpg);
     background-size: cover;
     background-position: center;
+
+    a {
+        background-size: cover;
+        }
 }
 
 .box#img02 {
@@ -70,11 +75,82 @@ main.boxm {
 footer.rodape {
     background-color: black;
     color: #1c5dd6;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .voltar {
     text-align: center;
     font-size: 1.2rem;
     padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    section.section_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 1024px)  {
+    
+    section.section_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3px;
+    }
+
+
+    .box {
+        width: 250px;
+        height: 150px;
+        background-color: #1c5dd6;
+        margin: 20px;
+        border-radius: 11px;
+    
+        }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    section.section_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+
+    .box {
+        width: 350px;
+        height: 200px;
+        background-color: #1c5dd6;
+        margin: 20px;
+        border-radius: 11px;
+    
+        }
+
+    h1 {
+        font-size: 60px;
+        
+    }
+
 }
