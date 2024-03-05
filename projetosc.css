@@ -36,31 +36,34 @@ section.section_container {
     margin: 20px;
     border-radius: 11px;
     box-shadow:2px 2px 5px 2px #05307e;
-    
+    overflow: hidden;
+    position: relative;
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-size: cover;
 }
 
 .box#img01 {
-    background-image: url("imagens/login.jpg");
     background-size: cover;
     
     
 }
 
 .box#img02 {
-    background-image: url('imagens/alurabooks.jpg');
     background-size: cover;
-    background-position: bottom;
 }
 
 .box#img03 {
-    background-image: url('imagens/port_alura.jpg');
     background-size: cover;
 }
 
 .box#img04 {
-    background-image: url('imagens/cordel.jpg');
     background-size: cover;
-    background-position: bottom;
 }
 .box#img05 {
     background-image: url('imagens/loading.jpg');
@@ -132,6 +135,8 @@ footer.rodape {
         background-color: #1c5dd6;
         margin: 20px;
         border-radius: 11px;
+        overflow: hidden;
+        position: relative;
     
         }
 }
