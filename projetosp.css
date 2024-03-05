@@ -14,7 +14,7 @@ main.boxp {
 }
 
 h1 {
-    text-align: center;
+    text-align: auto;
     color: #1c5dd6;
 }
 
@@ -35,7 +35,7 @@ section.section_container {
     height: 100px;
     background-color: #1c5dd6;
     margin: 20px;
-    border-radius: 12px;
+    border-radius: 11px;
     box-shadow:2px 2px 5px 2px #05307e;
 
 }
@@ -127,6 +127,10 @@ footer.rodape {
         border-radius: 11px;
     
         }
+        h1 {
+            font-size: 60px;
+            text-align: auto; 
+        }
 
 }
 
@@ -151,12 +155,12 @@ footer.rodape {
         background-color: #1c5dd6;
         margin: 20px;
         border-radius: 11px;
-    
+
         }
 
     h1 {
         font-size: 60px;
-        
+        text-align: auto; 
     }
 
 }
