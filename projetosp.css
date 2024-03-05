@@ -43,7 +43,7 @@ section.section_container {
 .box#img01 {
     background-image: url(imagens/stefanii.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 
     a {
         background-size: cover;
@@ -51,6 +51,12 @@ section.section_container {
 }
 
 .box#img02 {
+    background-image: url(/imagens/quiz.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.box#img03 {
     background-image: url(imagens/loading.jpg);
     background-size: cover;
     background-position: center;
